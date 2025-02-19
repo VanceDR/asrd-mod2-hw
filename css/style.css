@@ -1,0 +1,171 @@
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: 25px;
+   font-family:Arial, sans-serif;
+}
+
+img{
+  width:100%;
+}
+
+
+p{
+  text-align:center;
+}
+
+div img{
+    /* Removed width and height limit in the images */
+    /* width:150px; */
+    /* height: 150px; */
+    display:block;
+    margin:auto;
+}
+
+div{
+  display: inline-block;
+  /* Changed width from 24% to 100% */
+  width: 100%;
+  /* Removed margin so there is no horizontal scroll */
+  /* margin: 5px; */
+  padding: 2px;
+}
+
+/* The first media query uses min-width and triggers at 772 px. */
+@media screen and (min-width: 772px) {
+    /* 
+    In the first media query  the div selector is set to a width of 45vw and uses display inline-block.  
+    */
+    div {
+        width: 45vw;
+    }
+    /* 
+    In the first media query the  img  selector is set to a max-height of 30vh  
+    */
+    img {
+        max-height: 30vh;
+    }
+}
+
+/* The second media query uses min-width and triggers at 998 px. */
+@media screen and (min-width: 998px) {
+    /* 
+    In the second media query  the div selector is set to a width of 30vw.
+    */
+    div {
+        width: 30vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
