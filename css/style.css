@@ -37,7 +37,7 @@ div img{
     margin:auto;
 }
 
-div{
+div {
   display: inline-block;
   /* Changed width from 24% to 100% */
   width: 100%;
@@ -52,6 +52,7 @@ div{
     In the first media query  the div selector is set to a width of 45vw and uses display inline-block.  
     */
     div {
+        /* No need to set "display: inline-block" since it is the default */
         width: 45vw;
     }
     /* 
